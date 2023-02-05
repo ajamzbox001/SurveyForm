@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>AJAMZBOX ArtGallery Survey Form</title>
-    <link rel="stylesheet" href="styles03surveyadapt.css" />
+    <link rel="stylesheet" href="styles03surveyadapt-testcode.css" />
   </head>
     <body>
       <div class="container">
@@ -14,40 +14,43 @@
           </p>
         </header>
         <form id="survey-form">
-          <div class="form-group">
-            <label id="name-label" for="name">Name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              class="form-control"
-              placeholder="Enter your name"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label id="email-label" for="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="form-control"
-              placeholder="Enter your Email"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
-            <input
-              type="number"
-              name="age"
-              id="number"
-              min="10"
-              max="99"
-              class="form-control"
-              placeholder="Age"
-            />
-          </div>
+        <div class="formbox">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Enter your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+                <input
+                  type="number"
+                  name="age"
+                  id="number"
+                  min="10"
+                  max="99"
+                  class="form-control"
+                  placeholder="Age"
+                />
+              </div>
+        </div>
+          <br>
           <div class="form-group">
             <p>Which option best describes your current role?</p>
             <select id="dropdown" name="role" class="form-control" required>
