@@ -1,4 +1,4 @@
 # SurveyForm
 AJAMZBOX ArtGallery Survey Form
 
-Working with HTML and CSS then connect with PHP to send submission details to email.
+Working with HTML and CSS to make a form that a person can put his/her information.
